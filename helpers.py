@@ -16,10 +16,6 @@ class Generators:
         address = random.choice(DataForGenerators.address_list)
         return address
 
-    def generate_metro_station(self):
-        metro_station = random.choice(DataForGenerators.station_name)
-        return metro_station
-
     def generate_comment(self):
         comment = random.choice(DataForGenerators.comment_list)
         return comment
