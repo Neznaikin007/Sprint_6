@@ -44,3 +44,4 @@ class BasePage:
     @allure.step('Получение url-адреса')
     def get_url(self, url):
         self.driver.get(url)
+        
